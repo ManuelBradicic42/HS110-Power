@@ -7,7 +7,6 @@ from csv import writer
 
 ip = sys.argv[1]
 plug = SmartPlug(ip)
-file = open("powerlog.csv", "w")
 print("Harware: %s" % pf(plug.hw_info))
 
 while True:
